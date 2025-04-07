@@ -59,6 +59,37 @@
   </head>
   <body>
     <div class="terminal-banner">░░▒▓▓██ PERCEPTOMANCIA ██▓▓▒░░</div>
+    <pre
+      id="perceptron"
+      style="background: #0d0d0d; color: #00ffd5; padding: 1em; font-family: monospace; font-size: 14px; border-radius: 8px"
+    >
+        ░▒▓▓████▓▓▒░
+     ╭── IN ─────────╮
+[•]────┐     [•]────┐
+      │            │
+[•]────┘            │
+                   ▼
+            ╔══════════╗
+            ║  ▒▒▒▒▒▒  ║
+            ╚══════════╝
+                   │
+       ▲   peso()  │
+       │  + sesgo()▼
+            ╭────────╮
+     [out]──┴──► ⚡ ──┴──► ACTIVACIÓN
+            ╰────────╯
+</pre
+    >
+
+    <script>
+      const inputs = document.querySelectorAll('#perceptron')[0].innerHTML.split('\n');
+      let pulse = true;
+      setInterval(() => {
+        const updated = inputs.map((line) => line.replace(/\[•\]/g, pulse ? '[ ]' : '[•]')).join('\n');
+        document.getElementById('perceptron').innerHTML = updated;
+        pulse = !pulse;
+      }, 1000);
+    </script>
 
     <div class="section">
       <p class="quote">"Procesamos, luego existimos. A veces, nos reímos en el medio."</p>
