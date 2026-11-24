@@ -1,0 +1,2 @@
+# Instrucciones para agentes de investigación
+Leer constitution.md y especificación del experimento antes de implementar. No modificar el corpus creativo ni divulgar datos personales. Mantener trazabilidad ID→hipótesis→test→resultado. Aplicar TDD a componentes deterministas. No inventar resultados o fuentes; distinguir ejemplo de evidencia. No alterar métricas confirmatorias después de ver resultados sin registrar una nueva versión exploratoria. Preferir PR pequeños y revisables. No presentar la Perceptomancia como teoría validada.

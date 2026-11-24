@@ -1,0 +1,13 @@
+# Glosario operacional
+- Sistema: configuración delimitada con estado, entorno e interacciones.
+- Diferencia: distinción entre valores o estados; su relevancia causal depende de mecanismos específicos.
+- Relación: vínculo especificado entre elementos; distinguir relación observada, inferida y posible.
+- Transformación: transición permitida por el modelo.
+- Identidad relacional: equivalencia funcional relativa a contexto y criterio; no agota identidad personal ni material.
+- Horizonte potencial: estados o resultados alcanzables con recursos y plazo definidos.
+- Observabilidad: capacidad de distinguir estados mediante observaciones.
+- Potencial reconocido: posibilidades representadas por un agente, incluidas conjeturas erróneas.
+- Génesis potencial: modificación de las posibilidades accesibles por cambios de organización, entorno o capacidades.
+- Metacognición operacional: estimar límites propios y modificar estrategias a partir de dicha estimación.
+- Conciencia: experiencia subjetiva; sin criterio de medición adoptado en v0.1.
+- Tiempo: distinguir variable física, pasos de simulación, duración vivida y convención social.
